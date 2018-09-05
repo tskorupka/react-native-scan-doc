@@ -33,5 +33,5 @@ repositories {
 
 dependencies {
     compile 'com.facebook.react:react-native:+'
-    compile project(path: ':openCVLibrary343')
+    compile project(path: ':openCVLibrary24136')
 }

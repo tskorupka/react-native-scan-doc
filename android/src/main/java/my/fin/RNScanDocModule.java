@@ -127,7 +127,7 @@ public class RNScanDocModule extends ReactContextBaseJavaModule {
   public void scan(String imagePath, int newWidth, int newHeight, int quality, String compressFormatString, String outputPath, Promise promise) {
     try {
       Log.d(TAG, "filepath: "+ imagePath);
-      OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_3_2_0,getCurrentActivity(),mOpenCVCallBack);
+      OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_2_4_13,getCurrentActivity(),mOpenCVCallBack);
 //      OpenCVLoader.initDebug();
       Bitmap sourceImage;
       imagePath = imagePath.substring(6);
